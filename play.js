@@ -5,7 +5,7 @@ const connect = function () {
   const conn = net.createConnection({
     host: "localhost", // IP address here
     port: 50541, // PORT number here
-    on(data) {
+    on: (data) => {
       console.log(data);
     },
   });
@@ -18,3 +18,4 @@ const connect = function () {
 
 console.log("Connecting ...");
 connect();
+
