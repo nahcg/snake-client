@@ -25,6 +25,10 @@ const setupInput = function (conn) {
     } else if (data === "d" ) {
       conn.write("Move: right");
     }
+    // snake messages
+    if (data === "g") {
+      conn.write("Say: GG")
+    }
   };
   stdin.on("data", handleUserInput); // event listener for stdin
   return stdin;
