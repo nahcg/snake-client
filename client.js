@@ -5,14 +5,15 @@ const connect = function () {
   const conn = net.createConnection({
     host: "localhost", // IP address here
     port: 50541, // PORT number here
-    on: (data) => {
+    });    
+    conn.on("data", (data) => {
       console.log(data);
-    },
-    on: ("connect", () => {
+    }),
+    conn.on("connect", () => {
       console.log("Successfully connected to game server")
       conn.write("Name: SNK")
     }),
-  });
+
     // interpret incoming data as text
     conn.setEncoding("utf8");
 
