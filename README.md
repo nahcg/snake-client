@@ -22,3 +22,4 @@ Before you can run this client, you will need to be running the server side whic
   - s: move down
   - d: move right
 - Use keyboard inputs 8, 9, 0 to show messages from snake
+- Press "ctrl + c" to exit game
