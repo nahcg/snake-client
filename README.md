@@ -8,9 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
-
+!["screenshot description"]
+<img width="730" alt="Snake screenshot" src="https://github.com/nahcg/snake-client/assets/25202164/1eb577ad-36db-495e-9cb1-885887e40ac5">
 
 ## Getting Started
 
